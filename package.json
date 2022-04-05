@@ -1,0 +1,11 @@
+{
+  "name": "event-loop-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "event-loop-tester.js",
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "author": "",
+  "license": "ISC"
+}

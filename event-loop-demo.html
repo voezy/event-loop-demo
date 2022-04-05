@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>event loop demo</title>
+    <script src="./event-loop-tester.js"></script>
+</head>
+<body>
+  <script>
+    var eventLoopTester = new EventLoopTester();
+    eventLoopTester.run(function() {
+      // Promise.resolve().then(function() {
+      //   console.log('demo promise then')
+      // });
+      // setTimeout(function() {
+      //   console.log('my setTimeout');
+      // }, 0);
+    })
+  </script>
+</body>
+</html>
